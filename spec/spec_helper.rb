@@ -7,6 +7,7 @@ require 'capybara/rspec'
 require 'capybara/dsl'
 require 'rack_session_access/capybara'
 require 'activerecord'
+require 'sinatra-activerecord'
 
 
 if ActiveRecord::Migrator.needs_migration?
